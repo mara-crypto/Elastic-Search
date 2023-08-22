@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="/CSS/index.css">
+    <title>Moteur de Recherche</title>
+</head>
+<body>
+    <div class="container-xl">
+        <div class="center-content">
+            <h1>Moteur de Recherche ISF</h1>
+            <form id="searchForm">
+                <div class="row">
+                    <div class="col">
+                        <div class="search-container">
+                            <input type="text" class="form-control wider-input" id="searchInput" name="query" placeholder="Rechercher sur ISF...">
+                            <button type="submit" class="btn btn-primary search-button">Rechercher</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    
+        <div id="resultsContainer" class="mt-4">
+            <!-- Les résultats de la recherche seront affichés ici -->
+        </div>
+    </div>
+
+    <script src="JS/bootstrap.min.js"></script>
+    <script src="/JS/index.js"></script>
+</body>
+</html>

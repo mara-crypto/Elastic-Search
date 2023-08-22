@@ -1,0 +1,33 @@
+/* Ajoutez du CSS personnalisé ici */
+.center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+.wider-input {
+    width: 100%;
+    max-width: 600px;
+    padding: 12px 20px;
+    font-size: 18px;
+    border: 1px solid #d1d1d1;
+    border-radius: 24px;
+}
+.search-container {
+    display: flex;
+    align-items: center;
+}
+.search-button {
+    margin-left: 10px;
+    border: none;
+    background-color: #4285f4;
+    color: white;
+    border-radius: 24px;
+    padding: 12px 24px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.search-button:hover {
+    background-color: #357ae8;
+}
